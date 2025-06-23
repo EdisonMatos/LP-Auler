@@ -569,6 +569,47 @@ const content = {
         },
       },
     },
+    avoidAcidents: {
+      backgroundImg: ctaWhatsappImgBg,
+      miniTag: "ACIDENTE DE TRABALHO",
+      title:
+        "Se você sofreu um acidente no trabalho, a lei está do seu lado. Desde cortes e quedas até exposição a produtos químicos, você tem direito a:",
+      subtitle: "",
+      description: (
+        <p>
+          ✔ Atendimento médico imediato (pago pela empresa)
+          <br />
+          <br />✔ Afastamento remunerado (auxílio-doença pelo INSS, se
+          necessário)
+          <br />
+          <br />✔ Estabilidade de 12 meses após retorno (não pode ser demitido
+          sem justa causa)
+          <br />
+          <br />✔ Indenização em casos de negligência da empresa (como EPI
+          vencido ou falta de treinamento)
+        </p>
+      ),
+      labelModal: "O QUE FAZER AGORA?",
+      descriptionModal: (
+        <p>
+          1️⃣ Registre o acidente na empresa (CAT – Comunicação de Acidente de
+          Trabalho é obrigatória!)
+          <br />
+          2️⃣ Procure um médico e guarde todos os documentos (atestados, recibos,
+          fotos do local)
+          <br />
+          3️⃣ Não assine nada sem orientação – a pressão para "abafar o caso" é
+          comum, mas ilegal.
+          <br />
+          <br />
+          Se sua empresa se recusar a ajudar ou você sentir que seus direitos
+          foram violados, fale conosco hoje mesmo. A justiça pode garantir sua
+          segurança e sua dignidade.
+        </p>
+      ),
+      labelWhatsappModal:
+        "➡ [Clique aqui para conversar com um especialista] – seu trabalho não pode custar sua saúde.",
+    },
     features: {
       miniTag: "ESPECIALIDADE",
       title: "Foco em Direito do Trabalho",

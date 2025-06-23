@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { color } from "framer-motion";
 
-export default function FrigorificoModal() {
+export default function AvoidAcidentsModal() {
   const navigate = useNavigate();
 
   const [visible, setVisible] = useState(false);
@@ -19,16 +19,16 @@ export default function FrigorificoModal() {
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle(content.texts.frigorifico.sectionHeader.miniTag);
+    setModalTitle(content.texts.avoidAcidents.miniTag);
     setModalContent(
       <p className="text-paragraph3">
         <p className="mb-[20px]">{abstractions.subtitleModal}</p>
-        {content.texts.frigorifico.modal}
+        {content.texts.avoidAcidents.descriptionModal}
         <p className="mb-[20px]"> {content.texts.about.modalCtaButton}</p>
         <div>
           <Button
-            aria-label={content.texts.frigorifico.labelModal}
-            label={content.texts.frigorifico.labelModal}
+            aria-label={content.texts.avoidAcidents.labelWhatsappModal}
+            label={content.texts.avoidAcidents.labelWhatsappModal}
             animation={false}
             className="hover:scale-105"
             icon={<FaWhatsapp size={24} />}
@@ -42,13 +42,13 @@ export default function FrigorificoModal() {
   return (
     <div>
       <Button
-        className="mt-[48px]"
-        label={content.texts.about.buttonModalLabelAbout}
+        className=""
+        label={content.texts.avoidAcidents.labelModal}
         onClick={onClick}
         removeAnchor={true}
         removeTarget={true}
         animation={true}
-        icon={<MoveRight />}
+        // icon={<MoveRight />}
       />
       <Dialog
         className="font-secondFont"
