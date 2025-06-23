@@ -46,6 +46,10 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import { ChartNoAxesCombined } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { BadgeDollarSign } from "lucide-react";
+
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
@@ -158,7 +162,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online via WhatsApp",
+        text: "Atendimento presencial com hora marcada em Chapecó, Xaxim, Quilombo, Seara e Concórdia - ou a qualquer dia via WhatsApp",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -182,6 +186,40 @@ const content = {
           alt: "",
         },
       },
+    },
+    whyUsCta: {
+      sectionHeader: {
+        miniTag: "ENTENDA SUA SITUAÇÃO",
+        title: "Seu trabalho não precisa ser uma luta diária contra o perigo",
+        subtitle:
+          "Você acorda cedo, enfrenta longas jornadas e dá seu suor para sustentar sua família. Mas, no chão de fábrica ou na agroindústria, o risco nunca sai de turno: máquinas perigosas, EPIs vencidos, calor sufocante, frio intenso, produtos químicos e ambientes insalubres fazem parte da sua rotina.",
+      },
+      description: (
+        <p>
+          Você já parou para pensar:
+          <br />
+          👉 "Até quando meu corpo vai aguentar isso?"
+          <br />
+          👉 "Será que minha saúde vale menos que a produção?"
+          <br />
+          👉 "Se eu me acidentar, quem vai me ajudar?"
+          <br />
+          <br />A verdade é que a <strong>lei protege você </strong>– e você não
+          precisa enfrentar isso sozinho. Se a sua empresa ignora seus direitos
+          ou coloca sua segurança em risco,{" "}
+          <strong>há algo que você pode fazer.</strong>
+          <br />
+          <br />
+          <strong>
+            avegue pelo site, descubra como a justiça trabalhista pode te
+            proteger e tire suas dúvidas agora mesmo.
+          </strong>
+          N Seu direito à saúde, segurança e dignidade no trabalho{" "}
+          <strong>não é negociável.</strong>
+        </p>
+      ),
+      ctaButtonText:
+        "👉 [Clique aqui e fale conosco hoje mesmo] – porque seu trabalho merece respeito.",
     },
     features: {
       miniTag: "ESPECIALIDADE",

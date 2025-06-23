@@ -13,6 +13,8 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
+import WhyUs from "../components/sections/lp01/WhyUs";
+import WhyUsCta from "../components/sections/WhyUsCta";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -29,6 +31,8 @@ export default function Index() {
         influencer={false}
         mesclado={false}
       />
+      {/* <WhyUs /> */}
+      <WhyUsCta />
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}

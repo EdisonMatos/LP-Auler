@@ -1,3 +1,4 @@
+import content from "../../../content/content";
 import contentLp01 from "../../../content/contentLp01";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
@@ -10,32 +11,34 @@ export default function WhyUs({}) {
       <SectionArea>
         <SectionWrapper>
           <SectionHeader
-            miniTitle={contentLp01.whyUs.sectionHeader.miniTag}
+            miniTitle={content.texts.whyUs.sectionHeader.miniTag}
             className="text-center"
-            sectionHeaderTitle={contentLp01.whyUs.sectionHeader.title}
+            sectionHeaderTitle={content.texts.whyUs.sectionHeader.title}
+            sectionHeaderSubtitle={content.texts.whyUs.sectionHeader.subtitle}
             color=""
             titleColorSet="text-secondary"
+            subtitleColorSet="text-secondary"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP
-              icon={contentLp01.whyUs.cards.card1.icon}
-              title={contentLp01.whyUs.cards.card1.title}
-              description={contentLp01.whyUs.cards.card1.description}
+              icon={content.texts.whyUs.cards.card1.icon}
+              title={content.texts.whyUs.cards.card1.title}
+              description={content.texts.whyUs.cards.card1.description}
             />
             <FeatureCardLP
-              icon={contentLp01.whyUs.cards.card2.icon}
-              title={contentLp01.whyUs.cards.card2.title}
-              description={contentLp01.whyUs.cards.card2.description}
+              icon={content.texts.whyUs.cards.card2.icon}
+              title={content.texts.whyUs.cards.card2.title}
+              description={content.texts.whyUs.cards.card2.description}
             />
             <FeatureCardLP
-              icon={contentLp01.whyUs.cards.card3.icon}
-              title={contentLp01.whyUs.cards.card3.title}
-              description={contentLp01.whyUs.cards.card3.description}
+              icon={content.texts.whyUs.cards.card3.icon}
+              title={content.texts.whyUs.cards.card3.title}
+              description={content.texts.whyUs.cards.card3.description}
             />
             <FeatureCardLP
-              icon={contentLp01.whyUs.cards.card4.icon}
-              title={contentLp01.whyUs.cards.card4.title}
-              description={contentLp01.whyUs.cards.card4.description}
+              icon={content.texts.whyUs.cards.card4.icon}
+              title={content.texts.whyUs.cards.card4.title}
+              description={content.texts.whyUs.cards.card4.description}
             />
           </div>
         </SectionWrapper>
