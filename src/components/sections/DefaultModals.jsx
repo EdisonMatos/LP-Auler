@@ -66,7 +66,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     label={content.texts.featuresLerDort.card1.buttonLabel}
                     onClick={() =>
                       onClick(
-                        content.texts.featuresLerDort.card1.title,
+                        content.texts.featuresLerDort.card1.subtitle,
                         content.texts.featuresLerDort.card1.description,
                         <>
                           <p className="my-[20px]">
@@ -123,7 +123,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     label={content.texts.featuresLerDort.card2.buttonLabel}
                     onClick={() =>
                       onClick(
-                        content.texts.featuresLerDort.card2.title,
+                        content.texts.featuresLerDort.card2.subtitle,
                         content.texts.featuresLerDort.card2.description,
                         <>
                           <p className="my-[20px]">
@@ -180,7 +180,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     label={content.texts.featuresLerDort.card3.buttonLabel}
                     onClick={() =>
                       onClick(
-                        content.texts.featuresLerDort.card3.title,
+                        content.texts.featuresLerDort.card3.subtitle,
                         content.texts.featuresLerDort.card3.description,
                         <>
                           <p className="my-[20px]">
@@ -237,7 +237,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     label={content.texts.featuresLerDort.card4.buttonLabel}
                     onClick={() =>
                       onClick(
-                        content.texts.featuresLerDort.card4.title,
+                        content.texts.featuresLerDort.card4.subtitle,
                         content.texts.featuresLerDort.card4.description,
                         <>
                           <p className="my-[20px]">
@@ -294,7 +294,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                     label={content.texts.featuresLerDort.card5.buttonLabel}
                     onClick={() =>
                       onClick(
-                        content.texts.featuresLerDort.card5.title,
+                        content.texts.featuresLerDort.card5.subtitle,
                         content.texts.featuresLerDort.card5.description,
                         <>
                           <p className="my-[20px]">

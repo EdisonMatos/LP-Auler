@@ -27,7 +27,7 @@ export default function AvoidAcidents({ colorMode = "default", modal = true }) {
 
   return (
     <>
-      <SectionArea className={`${bgClass}`}>
+      <SectionArea className={`${bgClass}`} paddingtop={false}>
         <SectionWrapper>
           <SectionHeader
             className={`text-center ${textClass}`}

@@ -63,7 +63,7 @@ export default function Frigorifico({
             subtitleColorSet={subtitleColor}
           />
           <MotionDivDownToUp>
-            <p className="text-white text-opacity-80 -mt-7 font-mainFont">
+            <p className="text-white text-opacity-80  font-mainFont">
               {content.texts.frigorifico.description}
             </p>
           </MotionDivDownToUp>

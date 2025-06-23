@@ -37,13 +37,16 @@ export default function WhyUsCta({ colorMode = "default" }) {
             titleColorSet={textClass}
             subtitleColorSet={textClass}
           />
-          <p className="w-[60%] text-center mb-12">{content.texts.whyUsCta.description}</p>
+          <p className="w-[90%] tablet1:w-[80%] text-center mb-12">
+            {content.texts.whyUsCta.description}
+          </p>
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.whyUsCta.ctaButtonText}
             animation
             icon={<FaWhatsapp size={24} />}
           />
+          <p className="mt-4">...porque seu trabalho merece respeito.</p>
         </SectionWrapper>
       </SectionArea>
     </>

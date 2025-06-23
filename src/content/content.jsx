@@ -219,8 +219,7 @@ const content = {
           <strong>não é negociável.</strong>
         </p>
       ),
-      ctaButtonText:
-        "👉 [Clique aqui e fale conosco hoje mesmo] – porque seu trabalho merece respeito.",
+      ctaButtonText: "Clique aqui e fale conosco hoje mesmo",
     },
     frigorifico: {
       sectionHeader: {
@@ -247,12 +246,11 @@ const content = {
         <p>
           1️ <strong>- Condições insalubres ou perigosas</strong>
           <br />
-          <br />
           Ambientes frios, ruídos ou contato com agentes biológicos podem gerar
           o direito a adicionais salariais.
           <br />
-          <br /> 2️ <strong>- Jornada excessiva ou sem pausas</strong>
           <br />
+          2️ <strong>- Jornada excessiva ou sem pausas</strong>
           <br />
           Há limites legais de jornada e a necessidade de pausas regulares,
           especialmente em atividades repetitivas. A FALTA DAS PAUSAS PODE GERAR
@@ -261,13 +259,11 @@ const content = {
           <br />
           3️{" "}
           <strong>- Intervalo para descanso não concedido corretamente</strong>
-          <br />
           <br />O intervalo mínimo deve ser respeitado. Se não for, pode haver
           reflexos no pagamento das horas.
           <br />
           <br />
           4️ <strong>- Acidentes ou doenças ocupacionais</strong>
-          <br />
           <br />
           Dores musculares ou acidentes com equipamentos são comuns. O
           acompanhamento jurídico pode orientar sobre os direitos
@@ -276,13 +272,11 @@ const content = {
           <br />
           5️ <strong>- Acúmulo ou desvio de função</strong>
           <br />
-          <br />
           Quando o trabalhador realiza tarefas além da função contratada, pode
           haver repercussões salariais.
           <br />
           <br />
           6️ <strong>- Terceirização de atividades principais</strong>
-          <br />
           <br />
           Situações em que a terceirização não é permitida podem ensejar
           questionamentos jurídicos.
@@ -290,25 +284,21 @@ const content = {
           <br />
           7️ <strong>- Assédio moral no ambiente de trabalho</strong>
           <br />
-          <br />O respeito à dignidade do trabalhador é um direito garantido por
-          lei.
+          O respeito à dignidade do trabalhador é um direito garantido por lei.
           <br />
           <br />
           8️ <strong>- Verbas rescisórias não pagas corretamente</strong>
-          <br />
           <br />
           Ao encerrar o vínculo, o trabalhador deve receber todos os valores
           devidos, conforme a legislação.
           <br />
           <br />
           9️ <strong>- Contratações irregulares (PJ, cooperativas etc.)</strong>
-          <br />
           <br />A subordinação e habitualidade podem configurar vínculo
           empregatício mesmo com contratos alternativos.
           <br />
           <br />
           10 <strong>- Diferença salarial sem justificativa</strong>
-          <br />
           <br />
           Trabalhadores que exercem as mesmas funções devem receber salários
           compatíveis.
@@ -317,8 +307,12 @@ const content = {
     },
     featuresLerDort: {
       miniTag: "LER - DORT",
-      title:
-        "⚖️ Você sente dores constantes no trabalho? Talvez seu corpo esteja pedindo ajuda — e a lei está do seu lado.",
+      title: (
+        <p>
+          ⚖️ Você sente dores constantes no trabalho? <br />
+          Talvez seu corpo esteja pedindo ajuda — e a lei está do seu lado
+        </p>
+      ),
       subtitle:
         "Você já percebeu como, com o passar do tempo, aquelas pequenas dores nos braços, nas costas ou nos ombros vão ficando cada vez mais frequentes?",
       imgFeatures: imgFeatures,
@@ -352,7 +346,6 @@ const content = {
             <br />❗ Cansaço muscular mesmo sem esforço pesado.
             <br />
             <br />❗ Dificuldade para movimentar os braços após o trabalho.
-            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -515,13 +508,10 @@ const content = {
         img: featuresImg4,
         title:
           "✉️ Se você sente que seu corpo está dando sinais de que algo não vai bem no seu trabalho, talvez seja hora de ouvir com mais atenção.",
-        subtitle: "A_Definir",
+        subtitle:
+          "A dor pode estar te mostrando o que você ainda não teve coragem de reconhecer:",
         description: (
           <div>
-            A dor pode estar te mostrando o que você ainda não teve coragem de
-            reconhecer:
-            <br />
-            <br />
             🔹 Seu esforço merece respeito.
             <br />
             🔹 Sua saúde merece cuidado.
@@ -572,8 +562,13 @@ const content = {
     avoidAcidents: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "ACIDENTE DE TRABALHO",
-      title:
-        "Se você sofreu um acidente no trabalho, a lei está do seu lado. Desde cortes e quedas até exposição a produtos químicos, você tem direito a:",
+      title: (
+        <p>
+          Se você sofreu um acidente no trabalho, a lei está do seu lado. <br />{" "}
+          Desde cortes e quedas até exposição a produtos químicos, você tem
+          direito a:
+        </p>
+      ),
       subtitle: "",
       description: (
         <p>
@@ -607,8 +602,7 @@ const content = {
           segurança e sua dignidade.
         </p>
       ),
-      labelWhatsappModal:
-        "➡ [Clique aqui para conversar com um especialista] – seu trabalho não pode custar sua saúde.",
+      labelWhatsappModal: "Clique aqui para conversar com um especialista",
     },
     features: {
       miniTag: "ESPECIALIDADE",
