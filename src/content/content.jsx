@@ -7,6 +7,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+import frigorifico from "../assets/imgs/features/frigorifico.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
@@ -220,6 +221,99 @@ const content = {
       ),
       ctaButtonText:
         "👉 [Clique aqui e fale conosco hoje mesmo] – porque seu trabalho merece respeito.",
+    },
+    frigorifico: {
+      sectionHeader: {
+        miniTag: "EMPREGADO FRIGORÍFICO",
+        title:
+          "⚖️ Você trabalha em frigorífico e tem dúvidas sobre seus direitos trabalhistas?",
+        subtitle:
+          "Informações jurídicas  para quem atua em ambientes industriais como abatedouros e frigoríficos.",
+      },
+      img: frigorifico,
+      description: (
+        <p>
+          Se você atua nesse setor, sabe que a rotina pode ser fisicamente
+          exaustiva e cheia de riscos. Muitas vezes, situações do dia a dia
+          podem caracterizar irregularidades trabalhistas.
+          <br />
+          <br />
+          Confira abaixo 10 situações que merecem atenção jurídica
+          especializada:
+        </p>
+      ),
+      labelModal: "Acesse aqui",
+      modal: (
+        <p>
+          1️ <strong>- Condições insalubres ou perigosas</strong>
+          <br />
+          <br />
+          Ambientes frios, ruídos ou contato com agentes biológicos podem gerar
+          o direito a adicionais salariais.
+          <br />
+          <br /> 2️ <strong>- Jornada excessiva ou sem pausas</strong>
+          <br />
+          <br />
+          Há limites legais de jornada e a necessidade de pausas regulares,
+          especialmente em atividades repetitivas. A FALTA DAS PAUSAS PODE GERAR
+          HORA EXTRA.
+          <br />
+          <br />
+          3️{" "}
+          <strong>- Intervalo para descanso não concedido corretamente</strong>
+          <br />
+          <br />O intervalo mínimo deve ser respeitado. Se não for, pode haver
+          reflexos no pagamento das horas.
+          <br />
+          <br />
+          4️ <strong>- Acidentes ou doenças ocupacionais</strong>
+          <br />
+          <br />
+          Dores musculares ou acidentes com equipamentos são comuns. O
+          acompanhamento jurídico pode orientar sobre os direitos
+          previdenciários e indenizatórios.
+          <br />
+          <br />
+          5️ <strong>- Acúmulo ou desvio de função</strong>
+          <br />
+          <br />
+          Quando o trabalhador realiza tarefas além da função contratada, pode
+          haver repercussões salariais.
+          <br />
+          <br />
+          6️ <strong>- Terceirização de atividades principais</strong>
+          <br />
+          <br />
+          Situações em que a terceirização não é permitida podem ensejar
+          questionamentos jurídicos.
+          <br />
+          <br />
+          7️ <strong>- Assédio moral no ambiente de trabalho</strong>
+          <br />
+          <br />O respeito à dignidade do trabalhador é um direito garantido por
+          lei.
+          <br />
+          <br />
+          8️ <strong>- Verbas rescisórias não pagas corretamente</strong>
+          <br />
+          <br />
+          Ao encerrar o vínculo, o trabalhador deve receber todos os valores
+          devidos, conforme a legislação.
+          <br />
+          <br />
+          9️ <strong>- Contratações irregulares (PJ, cooperativas etc.)</strong>
+          <br />
+          <br />A subordinação e habitualidade podem configurar vínculo
+          empregatício mesmo com contratos alternativos.
+          <br />
+          <br />
+          10 <strong>- Diferença salarial sem justificativa</strong>
+          <br />
+          <br />
+          Trabalhadores que exercem as mesmas funções devem receber salários
+          compatíveis.
+        </p>
+      ),
     },
     features: {
       miniTag: "ESPECIALIDADE",

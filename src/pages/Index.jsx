@@ -15,6 +15,7 @@ import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
 import WhyUs from "../components/sections/lp01/WhyUs";
 import WhyUsCta from "../components/sections/WhyUsCta";
+import Frigorifico from "../components/sections/Frigorifico";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -33,6 +34,7 @@ export default function Index() {
       />
       {/* <WhyUs /> */}
       <WhyUsCta />
+      <Frigorifico />
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
