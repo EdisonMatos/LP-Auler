@@ -942,27 +942,127 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "Sofri um acidente de trabalho. O que devo fazer?",
+          answer: (
+            <p>
+              Exemplo: João cortou a mão em uma máquina sem proteção na fábrica.
+              A empresa tentou não registrar o acidente. ✅ Seus direitos: A
+              empresa DEVE emitir a CAT (Comunicação de Acidente de Trabalho),
+              pagar seus tratamentos e, se necessário, garantir afastamento com
+              estabilidade.
+            </p>
+          ),
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question:
+            "Trabalho em um local com muito barulho. Posso receber adicional por isso?",
+          answer: (
+            <p>
+              Exemplo: Maria trabalha em um frigorífico com máquinas tão altas
+              que já tem zumbido no ouvido. ✅ Seus direitos: Se o ruído
+              ultrapassar 85 decibéis, você tem direito ao adicional de
+              insalubridade (até 40% do salário mínimo).
+            </p>
+          ),
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question:
+            "Minha empresa não fornece EPI ou dá equipamento vencido. O que fazer?",
+          answer: (
+            <p>
+              Exemplo: Carlos recebeu uma máscara contra produtos químicos, mas
+              estava rasgada e vencida. ✅ Seus direitos: EPI é obrigatório e
+              deve estar em perfeito estado. Recuse trabalhar sem ele e exija
+              substituição. Pode gerar indenização se houver danos.
+            </p>
+          ),
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question:
+            "Trabalho no frio extremo ou calor excessivo. Tenho direito a algo?",
+          answer: (
+            <p>
+              Exemplo: Ana trabalha em um galpão sem ventilação, onde o calor
+              passa de 40°C. ✅ Seus direitos: Locais com temperaturas extremas
+              podem garantir adicional de insalubridade (20% a 40% do salário
+              mínimo).
+            </p>
+          ),
+        },
+        question5: {
+          question: "Trabalho limpando banheiros. Isso é insalubre?",
+          answer: (
+            <p>
+              Exemplo: Maria tem que limpar banheiros industriais devo receber
+              adicional de insalubridade por isso. ✅ Seus direitos: limpar
+              banheiros gera insalubridade. Você pode deve receber até 40% de
+              adicional de insalubridade.
+            </p>
+          ),
+        },
+        question6: {
+          question:
+            "Sofri assédio ou briga com colegas. A empresa pode me demitir por isso?",
+          answer: (
+            <p>
+              Exemplo: Luís foi agredido por um colega após uma discussão, e a
+              empresa o demitiu sem apurar o caso. ✅ Seus direitos: Brigas
+              devem ser investigadas. Se você foi vítima, pode processar por
+              danos morais e até anular a demissão se foi injusta.
+            </p>
+          ),
+        },
+        question7: {
+          question:
+            "Trabalho exposto a umidade (como lavanderias ou câmaras frias). Tenho direito a algo?",
+          answer: (
+            <p>
+              Exemplo: Fernanda trabalha em um frigorífico onde o chão está
+              sempre molhado e ela já caiu duas vezes. ✅ Seus direitos: Umidade
+              excessiva pode dar direito a adicional de insalubridade e a
+              empresa deve fornecer calçados antiderrapantes.
+            </p>
+          ),
+        },
+        question8: {
+          question:
+            "Minha empresa paga o adicional de insalubridade, mas acho que o valor está errado. Como conferir?",
+          answer: (
+            <p>
+              Exemplo: Pedro recebe 10% de insalubridade por trabalhar com
+              produtos químicos, mas a lei garante 20%. ✅ Seus direitos: O
+              valor depende do grau de risco (10%, 20% ou 40% do salário
+              mínimo). Consulte um advogado para calcular corretamente.
+            </p>
+          ),
+        },
+        question9: {
+          question:
+            "Fui demitido após sofrer um acidente de trabalho. Isso é permitido?",
+          answer: (
+            <p>
+              Exemplo: Carla sofreu uma queda no trabalho, ficou afastada e foi
+              demitida ao voltar. ✅ Seus direitos: Não! Você tem estabilidade
+              de 12 meses após o retorno. Se foi demitido, pode entrar na
+              Justiça para ser recontratado.
+            </p>
+          ),
+        },
+        question10: {
+          question:
+            "Minha empresa diz que 'quem não quer se arriscar, não trabalha aqui'. Isso é legal?",
+          answer: (
+            <p>
+              Exemplo: O chefe de Marcos disse que trabalhar com máquinas
+              perigosas é "normal" e quem reclamar será mandado embora. ✅ Seus
+              direitos: Isso é ILEGAL! Você pode denunciar ao Ministério do
+              Trabalho e processar por assédio moral.
+            </p>
+          ),
         },
       },
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph:
+        "Se você se identificou com qualquer uma dessas situações, não fique calado e descubra como garantir seus direitos.",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
