@@ -16,6 +16,10 @@ import BlogPosts from "../components/sections/BlogPosts";
 import WhyUs from "../components/sections/lp01/WhyUs";
 import WhyUsCta from "../components/sections/WhyUsCta";
 import Frigorifico from "../components/sections/Frigorifico";
+import FeaturesParagraphs from "../components/sections/FeaturesParagraphs";
+import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
+import FeaturesModalWithCards from "../components/sections/FeaturesModalWithCards";
+import DefaultModals from "../components/sections/DefaultModals";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -35,6 +39,7 @@ export default function Index() {
       {/* <WhyUs /> */}
       <WhyUsCta />
       <Frigorifico />
+      <DefaultModals/>
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}

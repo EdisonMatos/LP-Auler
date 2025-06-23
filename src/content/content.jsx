@@ -315,6 +315,260 @@ const content = {
         </p>
       ),
     },
+    featuresLerDort: {
+      miniTag: "LER - DORT",
+      title:
+        "⚖️ Você sente dores constantes no trabalho? Talvez seu corpo esteja pedindo ajuda — e a lei está do seu lado.",
+      subtitle:
+        "Você já percebeu como, com o passar do tempo, aquelas pequenas dores nos braços, nas costas ou nos ombros vão ficando cada vez mais frequentes?",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      descriptionTexte: (
+        <p>
+          No começo, parece só cansaço. Mas, quando o incômodo se torna parte da
+          rotina, é sinal de que algo está errado.
+          <br />
+          <br /> Se você trabalha repetindo os mesmos movimentos todos os dias —
+          cortando, empacotando, digitando ou carregando peso — seu corpo pode
+          estar sofrendo com algo chamado LER (Lesões por Esforço Repetitivo) ou
+          DORT (Distúrbios Osteomusculares Relacionados ao Trabalho).
+        </p>
+      ),
+      card1: {
+        img: featuresImg1,
+        title: (
+          <p>
+            Esses nomes podem parecer técnicos demais. Mas, na prática,
+            significam o que muita gente sente sem entender direito:
+          </p>
+        ),
+        subtitle: "Defesa dos seus direitos em casos de acidente laboral.",
+        description: (
+          <div>
+            ❗ Dores constantes nos punhos, ombros e coluna.
+            <br />
+            <br />❗ Dormência nas mãos e dedos.
+            <br />
+            <br />❗ Cansaço muscular mesmo sem esforço pesado.
+            <br />
+            <br />❗ Dificuldade para movimentar os braços após o trabalho.
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-ambulance-icon lucide-ambulance"
+          >
+            <path d="M10 10H6" />
+            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+            <path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14" />
+            <path d="M8 8v4" />
+            <path d="M9 18h6" />
+            <circle cx="17" cy="18" r="2" />
+            <circle cx="7" cy="18" r="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "🧠 Você não está sozinho — e isso não é normal.",
+        subtitle: "Garantia dos adicionais por riscos e condições nocivas.",
+        description: (
+          <div>
+            Muitos trabalhadores acham que sentir dor faz parte do trabalho
+            duro. Que é “coisa da idade” ou “só mais um dia puxado”.
+            <br />
+            Mas a verdade é que{" "}
+            <strong>
+              ninguém deveria sentir dor crônica por fazer o seu trabalho.
+            </strong>
+            <br />
+            <br />
+            Essas lesões não aparecem de uma hora para outra — elas se acumulam
+            silenciosamente. E quando percebemos, já afetam o sono, o humor e
+            até mesmo a nossa dignidade.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-biohazard-icon lucide-biohazard"
+          >
+            <circle cx="12" cy="11.9" r="2" />
+            <path d="M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6" />
+            <path d="m8.9 10.1 1.4.8" />
+            <path d="M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5" />
+            <path d="m15.1 10.1-1.4.8" />
+            <path d="M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2" />
+            <path d="M12 13.9v1.6" />
+            <path d="M13.5 5.4c-1-.2-2-.2-3 0" />
+            <path d="M17 16.4c.7-.7 1.2-1.6 1.5-2.5" />
+            <path d="M5.5 13.9c.3.9.8 1.8 1.5 2.5" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title:
+          "📌 A lei reconhece o impacto das LER/DORT na vida do trabalhador.",
+        subtitle: "Auxílio na rescisão por falta grave do empregador.",
+        description: (
+          <div>
+            A legislação trabalhista prevê medidas para proteger a sua saúde.
+            Isso inclui:
+            <br />
+            Pausas obrigatórias durante a jornada;
+            <br />
+            Ambiente ergonômico e seguro;
+            <br />
+            Acompanhamento médico;
+            <br />
+            E, em casos mais graves, indenizações, afastamento e reabilitação.
+            <br />
+            Mas atenção: se você não buscar orientação, ninguém vai fazer isso
+            por você.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-x-icon lucide-user-x"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <line x1="17" x2="22" y1="8" y2="13" />
+            <line x1="22" x2="17" y1="8" y2="13" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "🤝 Como um advogado pode te ajudar?",
+        subtitle: "Cobrança justa por horas trabalhadas além do horário.",
+        description: (
+          <div>
+            A função de um advogado trabalhista não é incentivar ações
+            desnecessárias. É esclarecer, orientar e proteger seus direitos com
+            responsabilidade. Cada caso é único, e só com uma análise jurídica
+            adequada é possível entender o que você pode ou não requerer
+            legalmente.
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-timer-icon lucide-timer"
+          >
+            <line x1="10" x2="14" y1="2" y2="2" />
+            <line x1="12" x2="15" y1="14" y2="11" />
+            <circle cx="12" cy="14" r="8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg4,
+        title:
+          "✉️ Se você sente que seu corpo está dando sinais de que algo não vai bem no seu trabalho, talvez seja hora de ouvir com mais atenção.",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A dor pode estar te mostrando o que você ainda não teve coragem de
+            reconhecer:
+            <br />
+            <br />
+            🔹 Seu esforço merece respeito.
+            <br />
+            🔹 Sua saúde merece cuidado.
+            <br />
+            🔹 E seus direitos, proteção.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      moreFeatures: {
+        card1: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+        card2: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+        card3: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+      },
+    },
     features: {
       miniTag: "ESPECIALIDADE",
       title: "Foco em Direito do Trabalho",
