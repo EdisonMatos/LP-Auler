@@ -13,6 +13,14 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
+import WhyUs from "../components/sections/lp01/WhyUs";
+import WhyUsCta from "../components/sections/WhyUsCta";
+import Frigorifico from "../components/sections/Frigorifico";
+import FeaturesParagraphs from "../components/sections/FeaturesParagraphs";
+import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
+import FeaturesModalWithCards from "../components/sections/FeaturesModalWithCards";
+import DefaultModals from "../components/sections/DefaultModals";
+import AvoidAcidents from "../components/sections/AvoidAcidents";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -29,8 +37,13 @@ export default function Index() {
         influencer={false}
         mesclado={false}
       />
+      {/* <WhyUs /> */}
+      <WhyUsCta />
+      <Frigorifico />
+      <DefaultModals />
+      <AvoidAcidents />
       {/* <BlogPosts /> */}
-      <Features
+      {/* <Features
         colorMode={colorMode}
         defaultFeature={true}
         button={false}
@@ -38,7 +51,7 @@ export default function Index() {
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
-      />
+      /> */}
       <About modal={true} showGallery={false} colorMode={colorMode} />
       {/* <AboutInstagram
         colorMode={colorMode}

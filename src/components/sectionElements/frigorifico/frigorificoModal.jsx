@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { color } from "framer-motion";
 
-export default function AboutModal() {
+export default function FrigorificoModal() {
   const navigate = useNavigate();
 
   const [visible, setVisible] = useState(false);
@@ -19,16 +19,16 @@ export default function AboutModal() {
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle(abstractions.titleModal);
-    setModalContent( 
+    setModalTitle(content.texts.frigorifico.sectionHeader.miniTag);
+    setModalContent(
       <p className="text-paragraph3">
         <p className="mb-[20px]">{abstractions.subtitleModal}</p>
-        {content.texts.about.modal}
+        {content.texts.frigorifico.modal}
         <p className="mb-[20px]"> {content.texts.about.modalCtaButton}</p>
         <div>
           <Button
-            aria-label={content.texts.about.ctaButtonAriaLabel}
-            label={content.texts.about.ctaButtonText}
+            aria-label={content.texts.frigorifico.labelModal}
+            label={content.texts.frigorifico.labelModal}
             animation={false}
             className="hover:scale-105"
             icon={<FaWhatsapp size={24} />}

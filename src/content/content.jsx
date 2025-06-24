@@ -7,6 +7,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+import frigorifico from "../assets/imgs/features/frigorifico.webp";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
@@ -46,6 +47,10 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import { ChartNoAxesCombined } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { BadgeDollarSign } from "lucide-react";
+
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
@@ -158,7 +163,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online via WhatsApp",
+        text: "Atendimento presencial com hora marcada em Chapecó, Xaxim, Quilombo, Seara e Concórdia - ou a qualquer dia via WhatsApp",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -182,6 +187,422 @@ const content = {
           alt: "",
         },
       },
+    },
+    whyUsCta: {
+      sectionHeader: {
+        miniTag: "ENTENDA SUA SITUAÇÃO",
+        title: "Seu trabalho não precisa ser uma luta diária contra o perigo",
+        subtitle:
+          "Você acorda cedo, enfrenta longas jornadas e dá seu suor para sustentar sua família. Mas, no chão de fábrica ou na agroindústria, o risco nunca sai de turno: máquinas perigosas, EPIs vencidos, calor sufocante, frio intenso, produtos químicos e ambientes insalubres fazem parte da sua rotina.",
+      },
+      description: (
+        <p>
+          Você já parou para pensar:
+          <br />
+          👉 "Até quando meu corpo vai aguentar isso?"
+          <br />
+          👉 "Será que minha saúde vale menos que a produção?"
+          <br />
+          👉 "Se eu me acidentar, quem vai me ajudar?"
+          <br />
+          <br />A verdade é que a <strong>lei protege você </strong>– e você não
+          precisa enfrentar isso sozinho. Se a sua empresa ignora seus direitos
+          ou coloca sua segurança em risco,{" "}
+          <strong>há algo que você pode fazer.</strong>
+          <br />
+          <br />
+          <strong>
+            avegue pelo site, descubra como a justiça trabalhista pode te
+            proteger e tire suas dúvidas agora mesmo.
+          </strong>
+          N Seu direito à saúde, segurança e dignidade no trabalho{" "}
+          <strong>não é negociável.</strong>
+        </p>
+      ),
+      ctaButtonText: "Clique aqui e fale conosco hoje mesmo",
+    },
+    frigorifico: {
+      sectionHeader: {
+        miniTag: "EMPREGADO FRIGORÍFICO",
+        title:
+          "⚖️ Você trabalha em frigorífico e tem dúvidas sobre seus direitos trabalhistas?",
+        subtitle:
+          "Informações jurídicas  para quem atua em ambientes industriais como abatedouros e frigoríficos.",
+      },
+      img: frigorifico,
+      description: (
+        <p>
+          Se você atua nesse setor, sabe que a rotina pode ser fisicamente
+          exaustiva e cheia de riscos. Muitas vezes, situações do dia a dia
+          podem caracterizar irregularidades trabalhistas.
+          <br />
+          <br />
+          Confira abaixo 10 situações que merecem atenção jurídica
+          especializada:
+        </p>
+      ),
+      labelModal: "Acesse aqui",
+      modal: (
+        <p>
+          1️ <strong>- Condições insalubres ou perigosas</strong>
+          <br />
+          Ambientes frios, ruídos ou contato com agentes biológicos podem gerar
+          o direito a adicionais salariais.
+          <br />
+          <br />
+          2️ <strong>- Jornada excessiva ou sem pausas</strong>
+          <br />
+          Há limites legais de jornada e a necessidade de pausas regulares,
+          especialmente em atividades repetitivas. A FALTA DAS PAUSAS PODE GERAR
+          HORA EXTRA.
+          <br />
+          <br />
+          3️{" "}
+          <strong>- Intervalo para descanso não concedido corretamente</strong>
+          <br />O intervalo mínimo deve ser respeitado. Se não for, pode haver
+          reflexos no pagamento das horas.
+          <br />
+          <br />
+          4️ <strong>- Acidentes ou doenças ocupacionais</strong>
+          <br />
+          Dores musculares ou acidentes com equipamentos são comuns. O
+          acompanhamento jurídico pode orientar sobre os direitos
+          previdenciários e indenizatórios.
+          <br />
+          <br />
+          5️ <strong>- Acúmulo ou desvio de função</strong>
+          <br />
+          Quando o trabalhador realiza tarefas além da função contratada, pode
+          haver repercussões salariais.
+          <br />
+          <br />
+          6️ <strong>- Terceirização de atividades principais</strong>
+          <br />
+          Situações em que a terceirização não é permitida podem ensejar
+          questionamentos jurídicos.
+          <br />
+          <br />
+          7️ <strong>- Assédio moral no ambiente de trabalho</strong>
+          <br />
+          O respeito à dignidade do trabalhador é um direito garantido por lei.
+          <br />
+          <br />
+          8️ <strong>- Verbas rescisórias não pagas corretamente</strong>
+          <br />
+          Ao encerrar o vínculo, o trabalhador deve receber todos os valores
+          devidos, conforme a legislação.
+          <br />
+          <br />
+          9️ <strong>- Contratações irregulares (PJ, cooperativas etc.)</strong>
+          <br />A subordinação e habitualidade podem configurar vínculo
+          empregatício mesmo com contratos alternativos.
+          <br />
+          <br />
+          10 <strong>- Diferença salarial sem justificativa</strong>
+          <br />
+          Trabalhadores que exercem as mesmas funções devem receber salários
+          compatíveis.
+        </p>
+      ),
+    },
+    featuresLerDort: {
+      miniTag: "LER - DORT",
+      title: (
+        <p>
+          ⚖️ Você sente dores constantes no trabalho? <br />
+          Talvez seu corpo esteja pedindo ajuda — e a lei está do seu lado
+        </p>
+      ),
+      subtitle:
+        "Você já percebeu como, com o passar do tempo, aquelas pequenas dores nos braços, nas costas ou nos ombros vão ficando cada vez mais frequentes?",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      descriptionTexte: (
+        <p>
+          No começo, parece só cansaço. Mas, quando o incômodo se torna parte da
+          rotina, é sinal de que algo está errado.
+          <br />
+          <br /> Se você trabalha repetindo os mesmos movimentos todos os dias —
+          cortando, empacotando, digitando ou carregando peso — seu corpo pode
+          estar sofrendo com algo chamado LER (Lesões por Esforço Repetitivo) ou
+          DORT (Distúrbios Osteomusculares Relacionados ao Trabalho).
+        </p>
+      ),
+      card1: {
+        img: featuresImg1,
+        title: (
+          <p>
+            Esses nomes podem parecer técnicos demais. Mas, na prática,
+            significam o que muita gente sente sem entender direito:
+          </p>
+        ),
+        subtitle: "Defesa dos seus direitos em casos de acidente laboral.",
+        description: (
+          <div>
+            ❗ Dores constantes nos punhos, ombros e coluna.
+            <br />
+            <br />❗ Dormência nas mãos e dedos.
+            <br />
+            <br />❗ Cansaço muscular mesmo sem esforço pesado.
+            <br />
+            <br />❗ Dificuldade para movimentar os braços após o trabalho.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-ambulance-icon lucide-ambulance"
+          >
+            <path d="M10 10H6" />
+            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+            <path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14" />
+            <path d="M8 8v4" />
+            <path d="M9 18h6" />
+            <circle cx="17" cy="18" r="2" />
+            <circle cx="7" cy="18" r="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "🧠 Você não está sozinho — e isso não é normal.",
+        subtitle: "Garantia dos adicionais por riscos e condições nocivas.",
+        description: (
+          <div>
+            Muitos trabalhadores acham que sentir dor faz parte do trabalho
+            duro. Que é “coisa da idade” ou “só mais um dia puxado”.
+            <br />
+            Mas a verdade é que{" "}
+            <strong>
+              ninguém deveria sentir dor crônica por fazer o seu trabalho.
+            </strong>
+            <br />
+            <br />
+            Essas lesões não aparecem de uma hora para outra — elas se acumulam
+            silenciosamente. E quando percebemos, já afetam o sono, o humor e
+            até mesmo a nossa dignidade.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-biohazard-icon lucide-biohazard"
+          >
+            <circle cx="12" cy="11.9" r="2" />
+            <path d="M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6" />
+            <path d="m8.9 10.1 1.4.8" />
+            <path d="M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5" />
+            <path d="m15.1 10.1-1.4.8" />
+            <path d="M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2" />
+            <path d="M12 13.9v1.6" />
+            <path d="M13.5 5.4c-1-.2-2-.2-3 0" />
+            <path d="M17 16.4c.7-.7 1.2-1.6 1.5-2.5" />
+            <path d="M5.5 13.9c.3.9.8 1.8 1.5 2.5" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title:
+          "📌 A lei reconhece o impacto das LER/DORT na vida do trabalhador.",
+        subtitle: "Auxílio na rescisão por falta grave do empregador.",
+        description: (
+          <div>
+            A legislação trabalhista prevê medidas para proteger a sua saúde.
+            Isso inclui:
+            <br />
+            Pausas obrigatórias durante a jornada;
+            <br />
+            Ambiente ergonômico e seguro;
+            <br />
+            Acompanhamento médico;
+            <br />
+            E, em casos mais graves, indenizações, afastamento e reabilitação.
+            <br />
+            Mas atenção: se você não buscar orientação, ninguém vai fazer isso
+            por você.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-x-icon lucide-user-x"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <line x1="17" x2="22" y1="8" y2="13" />
+            <line x1="22" x2="17" y1="8" y2="13" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "🤝 Como um advogado pode te ajudar?",
+        subtitle: "Cobrança justa por horas trabalhadas além do horário.",
+        description: (
+          <div>
+            A função de um advogado trabalhista não é incentivar ações
+            desnecessárias. É esclarecer, orientar e proteger seus direitos com
+            responsabilidade. Cada caso é único, e só com uma análise jurídica
+            adequada é possível entender o que você pode ou não requerer
+            legalmente.
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-timer-icon lucide-timer"
+          >
+            <line x1="10" x2="14" y1="2" y2="2" />
+            <line x1="12" x2="15" y1="14" y2="11" />
+            <circle cx="12" cy="14" r="8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg4,
+        title:
+          "✉️ Se você sente que seu corpo está dando sinais de que algo não vai bem no seu trabalho, talvez seja hora de ouvir com mais atenção.",
+        subtitle:
+          "A dor pode estar te mostrando o que você ainda não teve coragem de reconhecer:",
+        description: (
+          <div>
+            🔹 Seu esforço merece respeito.
+            <br />
+            🔹 Sua saúde merece cuidado.
+            <br />
+            🔹 E seus direitos, proteção.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      moreFeatures: {
+        card1: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+        card2: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+        card3: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+      },
+    },
+    avoidAcidents: {
+      backgroundImg: ctaWhatsappImgBg,
+      miniTag: "ACIDENTE DE TRABALHO",
+      title: (
+        <p>
+          Se você sofreu um acidente no trabalho, a lei está do seu lado. <br />{" "}
+          Desde cortes e quedas até exposição a produtos químicos, você tem
+          direito a:
+        </p>
+      ),
+      subtitle: "",
+      description: (
+        <p>
+          ✔ Atendimento médico imediato (pago pela empresa)
+          <br />
+          <br />✔ Afastamento remunerado (auxílio-doença pelo INSS, se
+          necessário)
+          <br />
+          <br />✔ Estabilidade de 12 meses após retorno (não pode ser demitido
+          sem justa causa)
+          <br />
+          <br />✔ Indenização em casos de negligência da empresa (como EPI
+          vencido ou falta de treinamento)
+        </p>
+      ),
+      labelModal: "O QUE FAZER AGORA?",
+      descriptionModal: (
+        <p>
+          1️⃣ Registre o acidente na empresa (CAT – Comunicação de Acidente de
+          Trabalho é obrigatória!)
+          <br />
+          2️⃣ Procure um médico e guarde todos os documentos (atestados, recibos,
+          fotos do local)
+          <br />
+          3️⃣ Não assine nada sem orientação – a pressão para "abafar o caso" é
+          comum, mas ilegal.
+          <br />
+          <br />
+          Se sua empresa se recusar a ajudar ou você sentir que seus direitos
+          foram violados, fale conosco hoje mesmo. A justiça pode garantir sua
+          segurança e sua dignidade.
+        </p>
+      ),
+      labelWhatsappModal: "Clique aqui para conversar com um especialista",
     },
     features: {
       miniTag: "ESPECIALIDADE",
@@ -395,7 +816,7 @@ const content = {
       subtitle:
         "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14207.590223989728!2d-52.6116439!3d-27.0965259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b5d96d26f269%3A0xfdcf4834fdab1e5!2sChapec%C3%B3%20Multas!5e0!3m2!1spt-BR!2sbr!4v1750168671846!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8861.372397471707!2d-52.61422465368103!3d-27.09490860615618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b69bfc3650df%3A0x55464059f41656aa!2sEscrit%C3%B3rio%20de%20Advocacia!5e1!3m2!1spt-BR!2sbr!4v1750709753100!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -521,27 +942,127 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "Sofri um acidente de trabalho. O que devo fazer?",
+          answer: (
+            <p>
+              Exemplo: João cortou a mão em uma máquina sem proteção na fábrica.
+              A empresa tentou não registrar o acidente. ✅ Seus direitos: A
+              empresa DEVE emitir a CAT (Comunicação de Acidente de Trabalho),
+              pagar seus tratamentos e, se necessário, garantir afastamento com
+              estabilidade.
+            </p>
+          ),
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question:
+            "Trabalho em um local com muito barulho. Posso receber adicional por isso?",
+          answer: (
+            <p>
+              Exemplo: Maria trabalha em um frigorífico com máquinas tão altas
+              que já tem zumbido no ouvido. ✅ Seus direitos: Se o ruído
+              ultrapassar 85 decibéis, você tem direito ao adicional de
+              insalubridade (até 40% do salário mínimo).
+            </p>
+          ),
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question:
+            "Minha empresa não fornece EPI ou dá equipamento vencido. O que fazer?",
+          answer: (
+            <p>
+              Exemplo: Carlos recebeu uma máscara contra produtos químicos, mas
+              estava rasgada e vencida. ✅ Seus direitos: EPI é obrigatório e
+              deve estar em perfeito estado. Recuse trabalhar sem ele e exija
+              substituição. Pode gerar indenização se houver danos.
+            </p>
+          ),
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question:
+            "Trabalho no frio extremo ou calor excessivo. Tenho direito a algo?",
+          answer: (
+            <p>
+              Exemplo: Ana trabalha em um galpão sem ventilação, onde o calor
+              passa de 40°C. ✅ Seus direitos: Locais com temperaturas extremas
+              podem garantir adicional de insalubridade (20% a 40% do salário
+              mínimo).
+            </p>
+          ),
+        },
+        question5: {
+          question: "Trabalho limpando banheiros. Isso é insalubre?",
+          answer: (
+            <p>
+              Exemplo: Maria tem que limpar banheiros industriais devo receber
+              adicional de insalubridade por isso. ✅ Seus direitos: limpar
+              banheiros gera insalubridade. Você pode deve receber até 40% de
+              adicional de insalubridade.
+            </p>
+          ),
+        },
+        question6: {
+          question:
+            "Sofri assédio ou briga com colegas. A empresa pode me demitir por isso?",
+          answer: (
+            <p>
+              Exemplo: Luís foi agredido por um colega após uma discussão, e a
+              empresa o demitiu sem apurar o caso. ✅ Seus direitos: Brigas
+              devem ser investigadas. Se você foi vítima, pode processar por
+              danos morais e até anular a demissão se foi injusta.
+            </p>
+          ),
+        },
+        question7: {
+          question:
+            "Trabalho exposto a umidade (como lavanderias ou câmaras frias). Tenho direito a algo?",
+          answer: (
+            <p>
+              Exemplo: Fernanda trabalha em um frigorífico onde o chão está
+              sempre molhado e ela já caiu duas vezes. ✅ Seus direitos: Umidade
+              excessiva pode dar direito a adicional de insalubridade e a
+              empresa deve fornecer calçados antiderrapantes.
+            </p>
+          ),
+        },
+        question8: {
+          question:
+            "Minha empresa paga o adicional de insalubridade, mas acho que o valor está errado. Como conferir?",
+          answer: (
+            <p>
+              Exemplo: Pedro recebe 10% de insalubridade por trabalhar com
+              produtos químicos, mas a lei garante 20%. ✅ Seus direitos: O
+              valor depende do grau de risco (10%, 20% ou 40% do salário
+              mínimo). Consulte um advogado para calcular corretamente.
+            </p>
+          ),
+        },
+        question9: {
+          question:
+            "Fui demitido após sofrer um acidente de trabalho. Isso é permitido?",
+          answer: (
+            <p>
+              Exemplo: Carla sofreu uma queda no trabalho, ficou afastada e foi
+              demitida ao voltar. ✅ Seus direitos: Não! Você tem estabilidade
+              de 12 meses após o retorno. Se foi demitido, pode entrar na
+              Justiça para ser recontratado.
+            </p>
+          ),
+        },
+        question10: {
+          question:
+            "Minha empresa diz que 'quem não quer se arriscar, não trabalha aqui'. Isso é legal?",
+          answer: (
+            <p>
+              Exemplo: O chefe de Marcos disse que trabalhar com máquinas
+              perigosas é "normal" e quem reclamar será mandado embora. ✅ Seus
+              direitos: Isso é ILEGAL! Você pode denunciar ao Ministério do
+              Trabalho e processar por assédio moral.
+            </p>
+          ),
         },
       },
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph:
+        "Se você se identificou com qualquer uma dessas situações, não fique calado e descubra como garantir seus direitos.",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
