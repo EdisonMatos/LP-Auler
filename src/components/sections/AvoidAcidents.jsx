@@ -7,6 +7,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import AvoidAcidentsModal from "../sectionElements/avoidAcidents/avoidAcidentsModal";
+import acidents from "../../assets/imgs/acidents/avoidAcidents.webp";
 
 export default function AvoidAcidents({ colorMode = "default", modal = true }) {
   const navigate = useNavigate();
@@ -41,19 +42,29 @@ export default function AvoidAcidents({ colorMode = "default", modal = true }) {
             <div className="w-[50%] flex flex-col gap-4">
               <MotionDivDownToUp>
                 <p className="flex">
-                  ✔ Atendimento médico imediato (pago pela empresa) ✔
-                  Afastamento remunerado (auxílio-doença pelo INSS, se
-                  necessário) ✔ Estabilidade de 12 meses após retorno (não pode
-                  ser demitido sem justa causa) ✔ Indenização em casos de
-                  negligência da empresa (como EPI vencido ou falta de
-                  treinamento)
+                  ✔ Atendimento médico imediato (pago pela empresa)
+                  <br />
+                  <br />✔ Afastamento remunerado (auxílio-doença pelo INSS, se
+                  necessário)
+                  <br />
+                  <br />✔ Estabilidade de 12 meses após retorno (não pode ser
+                  demitido sem justa causa)
+                  <br />
+                  <br />✔ Indenização em casos de negligência da empresa (como
+                  EPI vencido ou falta de treinamento)
                 </p>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 {modal && <AvoidAcidentsModal colorMode={colorMode} />}
               </MotionDivDownToUp>
             </div>
-            <div className="w-[50%]"></div>
+            <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
+              <img
+                src={acidents}
+                alt="imagem de corte de carne"
+                className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
+              />
+            </MotionDivDownToUp>
           </div>
         </SectionWrapper>
       </SectionArea>
