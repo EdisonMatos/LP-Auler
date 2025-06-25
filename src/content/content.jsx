@@ -212,10 +212,10 @@ const content = {
           <br />
           <br />
           <strong>
-            avegue pelo site, descubra como a justiça trabalhista pode te
+            Navegue pelo site, descubra como a justiça trabalhista pode te
             proteger e tire suas dúvidas agora mesmo.
           </strong>
-          N Seu direito à saúde, segurança e dignidade no trabalho{" "}
+          Seu direito à saúde, segurança e dignidade no trabalho{" "}
           <strong>não é negociável.</strong>
         </p>
       ),

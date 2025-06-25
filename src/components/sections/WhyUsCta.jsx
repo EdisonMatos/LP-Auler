@@ -46,7 +46,6 @@ export default function WhyUsCta({ colorMode = "default" }) {
             animation
             icon={<FaWhatsapp size={24} />}
           />
-          <p className="mt-4">...porque seu trabalho merece respeito.</p>
         </SectionWrapper>
       </SectionArea>
     </>
