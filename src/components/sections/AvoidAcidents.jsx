@@ -38,8 +38,8 @@ export default function AvoidAcidents({ colorMode = "default", modal = true }) {
             titleColorSet={textClass}
             subtitleColorSet={textClass}
           />
-          <div className="flex w-full justify-between">
-            <div className="w-[50%] flex flex-col gap-4">
+          <div className="flex flex-col gap-6 desktop1:gap-0 desktop1:flex-row w-full justify-between">
+            <div className="w-auto desktop1:w-[40%] flex flex-col gap-4">
               <MotionDivDownToUp>
                 <p className="flex">
                   ✔ Atendimento médico imediato (pago pela empresa)
