@@ -37,9 +37,24 @@ export default function AvoidAcidents({ colorMode = "default", modal = true }) {
             titleColorSet={textClass}
             subtitleColorSet={textClass}
           />
-          <MotionDivDownToUp>
-            {modal && <AvoidAcidentsModal colorMode={colorMode} />}
-          </MotionDivDownToUp>
+          <div className="flex w-full justify-between">
+            <div className="w-[50%] flex flex-col gap-4">
+              <MotionDivDownToUp>
+                <p className="flex">
+                  ✔ Atendimento médico imediato (pago pela empresa) ✔
+                  Afastamento remunerado (auxílio-doença pelo INSS, se
+                  necessário) ✔ Estabilidade de 12 meses após retorno (não pode
+                  ser demitido sem justa causa) ✔ Indenização em casos de
+                  negligência da empresa (como EPI vencido ou falta de
+                  treinamento)
+                </p>
+              </MotionDivDownToUp>
+              <MotionDivDownToUp>
+                {modal && <AvoidAcidentsModal colorMode={colorMode} />}
+              </MotionDivDownToUp>
+            </div>
+            <div className="w-[50%]"></div>
+          </div>
         </SectionWrapper>
       </SectionArea>
     </>

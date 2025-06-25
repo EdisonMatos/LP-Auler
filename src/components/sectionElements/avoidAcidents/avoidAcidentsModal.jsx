@@ -59,9 +59,6 @@ export default function AvoidAcidentsModal() {
         breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
       >
         <p className="m-0 ">{modalContent}</p>
-        <p className="mt-2 text-center">
-          ...porque seu trabalho merece respeito.
-        </p>
       </Dialog>
     </div>
   );
