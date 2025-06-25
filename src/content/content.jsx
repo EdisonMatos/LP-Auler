@@ -7,7 +7,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
-import frigorifico from "../assets/imgs/features/frigorifico.webp";
+import frigorifico from "../assets/imgs/acidents/frigorifico.webp";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
