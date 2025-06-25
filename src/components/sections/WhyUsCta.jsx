@@ -39,9 +39,9 @@ export default function WhyUsCta({ colorMode = "default" }) {
             titleColorSet={textClass}
             subtitleColorSet={textClass}
           />
-          <div className="flex flex-col desktop1:flex-row gap-8 w-full">
+          <div className="flex items-center justify-between flex-col desktop1:flex-row-reverse gap-8 w-full">
             <div className="flex flex-col items-center desktop1:items-start">
-              <p className="w-[90%] tablet1:w-[90%] m-auto desktop1:ml-0 text-center mb-6 desktop1:text-start">
+              <p className="w-[90%] tablet1:w-[90%] desktop1:w-[415px] desktop2:w-[570px] m-auto desktop1:ml-0 text-center mb-6 desktop1:text-start">
                 {content.texts.whyUsCta.description}
               </p>
               <Button
@@ -52,7 +52,7 @@ export default function WhyUsCta({ colorMode = "default" }) {
               />
             </div>
             <div>
-              <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[485px] m-auto  flex justify-center rounded-xl">
+              <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[485px] m-auto flex justify-center rounded-xl">
                 <img
                   src={convencimento}
                   alt="imagem de corte de carne"
