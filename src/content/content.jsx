@@ -64,8 +64,8 @@ export const infos = {
   domain: "auleradvocacia.com.br", // Sem "www"
   phone: {
     ddd: "49",
-    firstPart: "99997", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6503", // Apenas os 4 últimos números
+    firstPart: "99915", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1639", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
