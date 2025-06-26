@@ -7,7 +7,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
-import frigorifico from "../assets/imgs/features/frigorifico.webp";
+import frigorifico from "../assets/imgs/acidents/frigorifico.webp";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
@@ -64,8 +64,8 @@ export const infos = {
   domain: "auleradvocacia.com.br", // Sem "www"
   phone: {
     ddd: "49",
-    firstPart: "99997", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6503", // Apenas os 4 últimos números
+    firstPart: "99915", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1639", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
