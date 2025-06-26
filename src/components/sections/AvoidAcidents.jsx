@@ -38,10 +38,10 @@ export default function AvoidAcidents({ colorMode = "default", modal = true }) {
             titleColorSet={textClass}
             subtitleColorSet={textClass}
           />
-          <div className="flex flex-col gap-6 desktop1:gap-0 desktop1:flex-row w-full justify-between">
-            <div className="w-auto desktop1:w-[40%] flex flex-col gap-4">
+          <div className="flex flex-col gap-6 desktop1:gap-0 items-center desktop1:flex-row-reverse w-full justify-between">
+            <div className="w-auto desktop1:w-[40%] items-center desktop1:items-start flex flex-col gap-4">
               <MotionDivDownToUp>
-                <p className="flex">
+                <p className="flex text-center desktop1:text-start">
                   ✔ Atendimento médico imediato (pago pela empresa)
                   <br />
                   <br />✔ Afastamento remunerado (auxílio-doença pelo INSS, se
