@@ -27,10 +27,10 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[145px] phone2:h-[155px] phone3:h-[160px] desktop3:h-[140px] " />{" "}
           <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
-            <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+            <div className="flex flex-col w-full desktop1:w-[90%] m-auto">
               {/* MiniTag preta */}
               <MotionDivDownToUp>
-                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4 text-labelButtons">
+                <div className="flex justify-center w-auto text-center desktop1:justify-center desktop1:text-center font-secondFont text-paragraph4 text-labelButtons">
                   <p className="mb-[16px] bg-minititle text-paragraph2 rounded-md px-[16px] py-[6px] inline-block">
                     {content.texts.hero.miniTag}
                   </p>
@@ -39,12 +39,12 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
               {/* Observação */}
               <MotionDivDownToUp>
-                <div className="flex justify-center desktop1:justify-start my-3 mb-6">
+                <div className="flex justify-center desktop1:justify-center my-3 mb-6">
                   <div className="flex flex-col items-center desktop1:flex-row text-primary">
                     <span>{content.texts.hero.obsHero.icon}</span>
 
                     <p
-                      className={`ml-[10px] text-center desktop1:text-start mt-[12px] desktop1:mt-0 ${obsTextColor}`}
+                      className={`ml-[10px] text-center  mt-[12px] desktop1:mt-0 ${obsTextColor}`}
                     >
                       {content.texts.hero.obsHero.text}
                     </p>
@@ -54,7 +54,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
               <MotionDivDownToUp>
                 <div
-                  className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[45px] tablet1:leading-[45px] desktop1:leading-[45px] desktop2:leading-[45px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title5 ${titleColor}`}
+                  className={`flex justify-center desktop1:justify-center font-bold leading-[40px] phone3:leading-[45px] tablet1:leading-[45px] desktop1:leading-[45px] desktop2:leading-[45px] text-center desktop1:text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title5 ${titleColor}`}
                 >
                   <h1>{content.texts.hero.title}</h1>
                 </div>
@@ -63,7 +63,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
               {/* Subtítulo */}
               <MotionDivDownToUp>
                 <div
-                  className={`flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5 ${subtitleColor}`}
+                  className={`flex justify-center w-full text-center desktop1:text-center desktop1:justify-center font-secondFont text-paragraph4 phone3:text-paragraph5 ${subtitleColor}`}
                 >
                   <p className="mb-[32px]">{content.texts.hero.subtitle}</p>
                 </div>
@@ -71,7 +71,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
               {/* Botão */}
               <div className="w-full phone2:w-full tablet2:w-auto">
-                <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
+                <div className="flex justify-center w-full desktop1:justify-center mb-[32px]">
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
@@ -120,7 +120,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
             </div>
 
             {/* Imagem principal */}
-            <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
+            {/* <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-center w-full">
                 <div
                   className="bg-top mt-[20px] desktop1:mt-0 rounded-xl w-full phone1:h-[300px] phone1:max-w-[300px] phone2:h-[355px] phone2:max-w-[355px] phone3:h-[405px] phone3:max-w-[405px] tablet1:h-[576px] tablet1:min-w-[576px] tablet2:h-[690px] tablet2:min-w-[690px] desktop1:h-[400px] desktop1:min-w-[200px] desktop2:h-[400px] desktop2:min-w-[400px] bg-cover bg-no-repeat desktop1:shadow-custom-opacity desktop1:shadow-shadowHero/10"
@@ -129,7 +129,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                   }}
                 />
               </MotionDivDownToUp>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
