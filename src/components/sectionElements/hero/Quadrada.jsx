@@ -44,7 +44,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                     <span>{content.texts.hero.obsHero.icon}</span>
 
                     <p
-                      className={`ml-[10px] text-center desktop1:text-start mt-[12px] desktop1:mt-0 ${obsTextColor}`}
+                      className={`ml-[10px] text-center  mt-[12px] desktop1:mt-0 ${obsTextColor}`}
                     >
                       {content.texts.hero.obsHero.text}
                     </p>
