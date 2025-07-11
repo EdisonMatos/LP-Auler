@@ -21,6 +21,7 @@ import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import FeaturesModalWithCards from "../components/sections/FeaturesModalWithCards";
 import DefaultModals from "../components/sections/DefaultModals";
 import AvoidAcidents from "../components/sections/AvoidAcidents";
+import SubHero from "../components/sectionElements/hero/SubHero";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -37,6 +38,7 @@ export default function Index() {
         influencer={false}
         mesclado={false}
       />
+      <SubHero />
       {/* <WhyUs /> */}
       <WhyUsCta />
       <Frigorifico />
