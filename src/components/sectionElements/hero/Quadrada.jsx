@@ -26,7 +26,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
       <div className="relative z-10 flex w-full items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[145px] phone2:h-[155px] phone3:h-[160px] desktop3:h-[140px] " />{" "}
-          <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px]  desktop1:pt-[68px] desktop1:pb-[96px]">
+          <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               {/* MiniTag preta */}
               <MotionDivDownToUp>
@@ -39,7 +39,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
               {/* Observação */}
               <MotionDivDownToUp>
-                <div className="flex justify-center desktop1:justify-start my-3">
+                <div className="flex justify-center desktop1:justify-start my-3 mb-6">
                   <div className="flex flex-col items-center desktop1:flex-row text-primary">
                     <span>{content.texts.hero.obsHero.icon}</span>
 
@@ -54,7 +54,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
               <MotionDivDownToUp>
                 <div
-                  className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6 ${titleColor}`}
+                  className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[45px] tablet1:leading-[45px] desktop1:leading-[45px] desktop2:leading-[45px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title5 ${titleColor}`}
                 >
                   <h1>{content.texts.hero.title}</h1>
                 </div>

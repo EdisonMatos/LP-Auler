@@ -132,18 +132,26 @@ const content = {
       miniTag: "ESCRITÓRIO DE ADVOCACIA EM CHAPECÓ - SC",
       title: (
         <h1 className="mb-[16px]">
-          Se o seu trabalho tem cobrado da sua saúde mais
-          <span className="text-primary"> do que deveria</span>
+          Está precisando de advogado trabalhista?
+          <br />
+          Chama no WhatsApp e vamos conversar agora mesmo!
         </h1>
       ),
-      subtitle:
-        "Talvez seja hora de entender o que a lei tem a dizer sobre isso",
+      subtitle: (
+        <p>
+          Mais de 5 anos de experiência
+          <br />
+          Mais de 2000 mil processos
+          <br />
+          Mais de 5 milhões recuperados
+        </p>
+      ),
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Saiba seus direitos",
+      ctaButtonText: "Fale agora no WhatsApp",
       obsHero: {
         icon: (
           <svg
