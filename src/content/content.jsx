@@ -129,7 +129,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM CHAPECÓ - SC",
+      miniTag: "ESCRITÓRIO FÍSICO EM ADVOCACIA EM CHAPECÓ - SC",
       title: (
         <h1 className="mb-[16px]">
           Está precisando de advogado trabalhista?
@@ -171,7 +171,15 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial com hora marcada em Chapecó, Xaxim, Quilombo, Seara e Concórdia - ou a qualquer dia via WhatsApp",
+        text: (
+          <p>
+            Atendimento presencial com hora marcada em{" "}
+            <strong className="text-title1 text-buttonColor">
+              Chapecó, Xaxim, Quilombo, Seara e Concórdia
+            </strong>{" "}
+            - ou a qualquer dia via WhatsApp
+          </p>
+        ),
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -613,16 +621,16 @@ const content = {
       labelWhatsappModal: "Clique aqui para conversar com um especialista",
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Foco em Direito do Trabalho",
+      miniTag: "ATUAÇÃO",
+      title: "Nossa atuação em Direito Trabalhista",
       subtitle:
-        "Atuação focada nas principais demandas trabalhistas com clareza e eficiência",
+        "Especialistas em defender seus direitos com foco e eficiência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Acidente e Doença do Trabalho",
-        subtitle: "Defesa dos seus direitos em casos de acidente laboral.",
+        title: "ACIDENTE DE TRABALHO e Doenças Ocupacionais",
+        subtitle: "Defesa em casos de acidente e doenças no trabalho.",
         description: (
           <div>
             A_Definir
@@ -659,8 +667,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Adicionais de Insalubridade e Periculosidade",
-        subtitle: "Garantia dos adicionais por riscos e condições nocivas.",
+        title: "Hora-extra e Adicionais",
+        subtitle: "Revisão e cobrança de horas extras e adicionais.",
         description: (
           <div>
             A_Definir
@@ -700,8 +708,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Rescisão Indireta",
-        subtitle: "Auxílio na rescisão por falta grave do empregador.",
+        title: "Insalubridade e periculosidade",
+        subtitle: "Garantia de direitos sobre insalubridade e risco.",
         description: (
           <div>
             A_Definir <br />
@@ -734,8 +742,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Horas Extras e Jornada de Trabalho",
-        subtitle: "Cobrança justa por horas trabalhadas além do horário.",
+        title: "Demissão com justa causa indevida",
+        subtitle: "Contestação de demissão por justa causa indevida.",
         description: (
           <div>
             A_Definir

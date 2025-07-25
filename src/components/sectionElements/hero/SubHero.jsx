@@ -50,6 +50,20 @@ export default function SubHero({ appDnloadButtons, colorMode }) {
                   </p>
                 </div>
               </MotionDivDownToUp>
+
+              <MotionDivDownToUp>
+                <div className="flex justify-center desktop1:justify-center my-3 mb-6">
+                  <div className="flex flex-col items-center desktop1:flex-row text-primary">
+                    <span>{content.texts.hero.obsHero.icon}</span>
+
+                    <p
+                      className={`ml-[10px] text-center  mt-[12px] desktop1:mt-0 ${obsTextColor}`}
+                    >
+                      {content.texts.hero.obsHero.text}
+                    </p>
+                  </div>
+                </div>
+              </MotionDivDownToUp>
             </div>
           </div>
         </div>

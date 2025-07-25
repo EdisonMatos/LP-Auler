@@ -41,11 +41,7 @@ export default function Index() {
       <SubHero />
       {/* <WhyUs /> */}
       <WhyUsCta />
-      <Frigorifico />
-      <DefaultModals />
-      <AvoidAcidents />
-      {/* <BlogPosts /> */}
-      {/* <Features
+      <Features
         colorMode={colorMode}
         defaultFeature={true}
         button={false}
@@ -53,7 +49,12 @@ export default function Index() {
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
-      /> */}
+      />
+      <Frigorifico />
+      <DefaultModals />
+      <AvoidAcidents />
+      {/* <BlogPosts /> */}
+
       <About modal={true} showGallery={false} colorMode={colorMode} />
       {/* <AboutInstagram
         colorMode={colorMode}
