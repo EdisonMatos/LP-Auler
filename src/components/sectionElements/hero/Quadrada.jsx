@@ -65,7 +65,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 <div
                   className={`flex justify-center w-full text-center desktop1:text-center desktop1:justify-center font-secondFont text-paragraph4 phone3:text-paragraph5 ${subtitleColor}`}
                 >
-                  <p className="mb-[32px]">{content.texts.hero.subtitle}</p>
+                  <p className="mb-[32px] text-title2">{content.texts.hero.subtitle}</p>
                 </div>
               </MotionDivDownToUp>
 
