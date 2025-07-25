@@ -171,7 +171,12 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial com hora marcada em Chapecó, Xaxim, Quilombo, Seara e Concórdia - ou a qualquer dia via WhatsApp",
+        text: (
+          <p>
+            Atendimento presencial com hora marcada em <strong className="text-title1 text-buttonColor">Chapecó, Xaxim, Quilombo,
+            Seara e Concórdia</strong> - ou a qualquer dia via WhatsApp
+          </p>
+        ),
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
