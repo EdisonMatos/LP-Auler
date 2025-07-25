@@ -38,7 +38,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
               </MotionDivDownToUp>
 
               {/* Observação */}
-              <MotionDivDownToUp>
+              {/* <MotionDivDownToUp>
                 <div className="flex justify-center desktop1:justify-center my-3 mb-6">
                   <div className="flex flex-col items-center desktop1:flex-row text-primary">
                     <span>{content.texts.hero.obsHero.icon}</span>
@@ -50,7 +50,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                     </p>
                   </div>
                 </div>
-              </MotionDivDownToUp>
+              </MotionDivDownToUp> */}
 
               <MotionDivDownToUp>
                 <div
