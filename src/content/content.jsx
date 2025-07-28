@@ -622,7 +622,7 @@ const content = {
     },
     features: {
       miniTag: "ATUAÇÃO",
-      title: "Nossa atuação em Direito Trabalhista",
+      title: "Área de atuação",
       subtitle:
         "Especialistas em defender seus direitos com foco e eficiência.",
       imgFeatures: imgFeatures,
