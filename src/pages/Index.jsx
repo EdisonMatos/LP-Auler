@@ -22,6 +22,7 @@ import FeaturesModalWithCards from "../components/sections/FeaturesModalWithCard
 import DefaultModals from "../components/sections/DefaultModals";
 import AvoidAcidents from "../components/sections/AvoidAcidents";
 import SubHero from "../components/sectionElements/hero/SubHero";
+import News from "../components/sectionElements/News";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -64,6 +65,7 @@ export default function Index() {
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       <Maps colorMode={colorMode} />
+      <News />
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
