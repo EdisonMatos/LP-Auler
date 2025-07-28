@@ -26,7 +26,7 @@ export default function Faq({ colorMode }) {
 
   return (
     <>
-      <SectionArea id="faq" className={`${bgClass}`}>
+      <SectionArea id="faq" className={`${bgClass}`} paddingtop={false}>
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
