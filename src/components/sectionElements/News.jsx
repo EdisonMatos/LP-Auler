@@ -43,8 +43,8 @@ export default function News({ colorMode }) {
         <MotionDivDownToUp className="flex justify-center w-full">
           <div className="w-[90%] tablet1:w-[80%] desktop1:w-[80%] max-w-[860px] mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
             <CardNews
-              title="Conheça nossa nova plataforma"
-              description="Estamos lançando um novo site com funcionalidades exclusivas. Clique no botão abaixo para acessar."
+              title="Trabalhadores denunciam frigoríficos como ‘fábricas de lesões e acidentes’"
+              description="Funcionários relatam jornadas exaustivas, metas abusivas e negligência com a saúde e segurança dentro dos frigoríficos brasileiros."
               href="https://reporterbrasil.org.br/2024/07/trabalhadores-denunciam-frigorificos-lesoes-acidentes/"
               buttonText="Acessar agora"
               textColor={colorMode === "dark" ? "text-white" : "text-black"}
