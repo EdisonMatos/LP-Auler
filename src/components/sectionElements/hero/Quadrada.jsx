@@ -28,15 +28,6 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
           <div className="h-[145px] phone2:h-[155px] phone3:h-[160px] desktop3:h-[140px] " />{" "}
           <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex flex-col w-full desktop1:w-[90%] m-auto">
-              {/* MiniTag preta */}
-              <MotionDivDownToUp>
-                <div className="flex justify-center w-auto text-center desktop1:justify-center desktop1:text-center font-secondFont text-paragraph4 text-labelButtons">
-                  <p className="mb-[16px] bg-minititle text-paragraph2 rounded-md px-[16px] py-[6px] inline-block">
-                    {content.texts.hero.miniTag}
-                  </p>
-                </div>
-              </MotionDivDownToUp>
-
               {/* Observação */}
               {/* <MotionDivDownToUp>
                 <div className="flex justify-center desktop1:justify-center my-3 mb-6">
@@ -65,7 +56,9 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 <div
                   className={`flex justify-center w-full text-center desktop1:text-center desktop1:justify-center font-secondFont text-paragraph4 phone3:text-paragraph5 ${subtitleColor}`}
                 >
-                  <p className="mb-[32px] text-title2">{content.texts.hero.subtitle}</p>
+                  <p className="mb-[32px] text-title2">
+                    {content.texts.hero.subtitle}
+                  </p>
                 </div>
               </MotionDivDownToUp>
 

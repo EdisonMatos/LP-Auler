@@ -51,6 +51,15 @@ export default function SubHero({ appDnloadButtons, colorMode }) {
                 </div>
               </MotionDivDownToUp>
 
+              {/* MiniTag preta */}
+              <MotionDivDownToUp>
+                <div className="flex justify-center w-auto text-center desktop1:justify-center desktop1:text-center font-secondFont text-paragraph4 text-labelButtons">
+                  <p className="mb-[16px] bg-minititle text-paragraph2 rounded-md px-[16px] py-[6px] inline-block">
+                    {content.texts.hero.miniTag}
+                  </p>
+                </div>
+              </MotionDivDownToUp>
+
               <MotionDivDownToUp>
                 <div className="flex justify-center desktop1:justify-center my-3 mb-6">
                   <div className="flex flex-col items-center desktop1:flex-row text-primary">
