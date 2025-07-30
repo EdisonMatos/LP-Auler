@@ -129,7 +129,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO FÍSICO EM ADVOCACIA EM CHAPECÓ - SC",
+      miniTag: "ESCRITÓRIO FÍSICO DE ADVOCACIA EM CHAPECÓ - SC",
       title: (
         <h1 className="mb-[16px]">
           Está precisando de advogado trabalhista?
